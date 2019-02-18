@@ -1,8 +1,8 @@
-package com.parkinglot;
+package com.rajat.parkinglot;
 
-import com.parkinglot.bo.Car;
-import com.parkinglot.bo.Slot;
-import com.parkinglot.exception.ParkingNotAvailableException;
+import com.rajat.parkinglot.bo.Car;
+import com.rajat.parkinglot.bo.Slot;
+import com.rajat.parkinglot.exception.ParkingNotAvailableException;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -13,6 +13,9 @@ import java.util.Map;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
+/**
+ * Created by rajat on 12/7/17.
+ */
 public class ParkingLotIntegrationTest {
 
     static IParkingLot pkLot;
