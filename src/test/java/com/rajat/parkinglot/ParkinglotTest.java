@@ -1,8 +1,8 @@
-package com.parkinglot;
+package com.rajat.parkinglot;
 
-import com.parkinglot.bo.Car;
-import com.parkinglot.bo.Slot;
-import com.parkinglot.exception.ParkingNotAvailableException;
+import com.rajat.parkinglot.bo.Car;
+import com.rajat.parkinglot.bo.Slot;
+import com.rajat.parkinglot.exception.ParkingNotAvailableException;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -12,8 +12,9 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-
-
+/**
+ * Created by sr250345 on 12/8/17.
+ */
 public class ParkinglotTest {
 
     @Test
